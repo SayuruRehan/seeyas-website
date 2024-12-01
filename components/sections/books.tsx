@@ -3,12 +3,12 @@ import { BookOpen } from "lucide-react";
 
 const books = [
   {
-    title: "The First Novel",
+    title: "Lay of the Sinhale",
     cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
     description: "A thrilling journey through time and space.",
   },
   {
-    title: "The Second Story",
+    title: "Ayesha Reborn",
     cover: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=400",
     description: "An emotional tale of love and loss.",
   },

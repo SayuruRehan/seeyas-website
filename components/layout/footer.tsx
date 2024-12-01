@@ -5,15 +5,15 @@ import { Button } from "@/components/ui/button";
 
 export function Footer() {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/1234567890", "_blank");
+    window.open("https://wa.me/+94788959804", "_blank");
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:author@example.com";
+    window.location.href = "mailto:ariplaksh@gmail.com";
   };
 
   const handleFacebookClick = () => {
-    window.open("https://facebook.com/authorpage", "_blank");
+    window.open("https://facebook.com/desilva.pariyasena", "_blank");
   };
 
   return (
@@ -24,9 +24,9 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact Information</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>123 Author Street</p>
-              <p>Literary City, BC 12345</p>
-              <p>United States</p>
+              <p>16 Moses Lane, Koralawella</p>
+              <p>Moratuwa</p>
+              <p>Sri Lanka</p>
             </div>
           </div>
 
@@ -36,11 +36,11 @@ export function Footer() {
             <div className="flex flex-col space-y-2">
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+1 (234) 567-8900</span>
+                <span>+94 (011) 265 8166 | +94 (077) 557 9255</span>
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>author@example.com</span>
+                <span>ariplaksh@gmail.com</span>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Author Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Prof. P. A. de Silva. All rights reserved.</p>
         </div>
       </div>
     </footer>
