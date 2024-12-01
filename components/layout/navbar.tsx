@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Link } from "components/ui/link";
+import { Link } from "@/components/ui/link";
 import { cn } from "@/lib/utils";
 
 const navigation = [
