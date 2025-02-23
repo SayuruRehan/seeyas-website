@@ -34,7 +34,7 @@ export function HeroSection() {
       <div className="absolute inset-0 flex items-center justify-center text-center">
         <div className="text-white space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold">Prof. P. A. de Silva</h1>
-          <p className="text-xl md:text-2xl">Emeritus Professor, Author & Storyteller</p>
+          <p className="text-xl md:text-2xl">Emeritus Professor, Inventor & Storyteller</p>
         </div>
       </div>
     </div>

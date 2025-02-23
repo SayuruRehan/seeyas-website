@@ -4,18 +4,48 @@ import { BookOpen } from "lucide-react";
 const books = [
   {
     title: "Lay of the Sinhale",
-    cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
-    description: "A thrilling journey through time and space.",
+    cover: "/assets/2.jpeg",
+    description: "The ist book written by Prof. P. A. de Silva. It is a poetry collection (anthology) rich in Sri Lankan history and culture.",
   },
   {
     title: "Ayesha Reborn",
-    cover: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=400",
-    description: "An emotional tale of love and loss.",
+    cover: "/assets/6.jpeg",
+    description: "A continuation of Sir Henry Rider Haggard's 'She' series. PA picks up where Sir Haggard left off and brings the reader into his world giving life back to Ayesha. This books was featured multiple times in the Rider Haggard Society, UK.",
   },
   {
-    title: "The Final Chapter",
-    cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&q=80&w=400",
-    description: "The epic conclusion to the trilogy.",
+    title: "අයේශාගේ සසර ගමන",
+    cover: "/assets/5.jpeg",
+    description: "The Sinhala translation of 'Ayesha Reborn'.",
+  },
+  {
+    title: "හේමමාලි",
+    cover: "/assets/1.jpeg",
+    description: "A true story brought to you by the life experiences of the author himself.",
+  },
+  {
+    title: "The Last Apple",
+    cover: "/assets/7.jpeg",
+    description: "A thrilling and enticing Science Fiction Novel encouraged to the author by Sir Arthur C. Clarke.",
+  },
+  {
+    title: "Ayesha at the Himalayan Foothills",
+    cover: "/assets/8.jpeg",
+    description: "An epic sequel for PA's Ayesha Reborn and the final of the series. This time the reader finds Ayesha in journey of the Himalayas.",
+  },
+  {
+    title: "සිරිසගබෝ වත",
+    cover: "/assets/4.jpeg",
+    description: "",
+  },
+  {
+    title: "කුඩා සිත්තරා",
+    cover: "/assets/3.jpeg",
+    description: "",
+  },
+  {
+    title: "පසුම්බිය සහ විශ්‍රාමිකයා",
+    cover: "/assets/9.jpeg",
+    description: "",
   },
 ];
 

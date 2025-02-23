@@ -1,66 +1,36 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Mail } from "lucide-react";
-import { useState } from "react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export function ContactSection() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log(formData);
-  };
-
   return (
     <section id="contact" className="py-20">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col items-center mb-12">
           <Mail className="w-12 h-12 mb-4 text-primary" />
-          <h2 className="text-3xl font-bold text-center mb-4">Contact the Author</h2>
+          <h2 className="text-3xl font-bold text-center mb-4">Contact</h2>
           <div className="w-20 h-1 bg-primary rounded"></div>
         </div>
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
-            <CardTitle className="text-center">Send a Message</CardTitle>
+            <CardTitle className="text-left">Contact Information</CardTitle>
           </CardHeader>
           <CardContent>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <Input
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                />
+            <div className="space-y-6">
+              <div className="flex items-center space-x-4">
+                <Phone className="text-primary" />
+                <span className="text-lg">+94 77 557 9255 | +94 11 265 8166</span>
               </div>
-              <div>
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                />
+              <div className="flex items-center space-x-4">
+                <Mail className="text-primary" />
+                <span className="text-lg">ariplaksh@gmail.com</span>
               </div>
-              <div>
-                <Textarea
-                  placeholder="Your Message"
-                  className="min-h-[150px]"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                />
+              <div className="flex items-center space-x-4">
+                <MapPin className="text-primary" />
+                <span className="text-lg">No. 16, Moses Lane, Koralawella, Moratuwa, Sri Lanka</span>
               </div>
-              <Button type="submit" className="w-full">
-                Send Message
-              </Button>
-            </form>
+            </div>
           </CardContent>
         </Card>
       </div>
